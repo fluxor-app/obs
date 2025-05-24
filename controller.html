@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Controller</title>
+</head>
+<nav class="navbar">
+  <h1 id="txt-nav">Lisossomos OBS Controller</h1>
+</nav>
+
+<body>
+  <div class="panel">
+    <div class="count-controller">
+      <p class="mb-5">Controlador de contagem</p>
+      <div class="buttons">
+        <button class="btn" id="add-number">Adicionar</button>
+        <button class="btn" id="reset">Resetar</button>
+        <label for="active" class="active-chk">
+          <input type="checkbox" id="active-chk">Ativo
+        </label>
+      </div>
+    </div>
+
+    <div class="timer">
+      <p class="mb-5">Controlador de timer</p>
+      <div class="buttons">
+        <button class="btn" id="init-timer" onclick="startCountdown()">Iniciar</button>
+        <input type="time" name="timer" id="input-timer">
+        <label for="active" class="active-timer">
+          <input type="checkbox" id="active-timer">Ativo
+        </label>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="js/controller.js"></script>
+
+</html>
