@@ -65,7 +65,6 @@ channel.onmessage = (event) => {
 
     case /^\d{2}:\d{2}$/.test(data):
       container.innerHTML = `
-      <p>Timer:</p>
       <div id="timer"></div>
     `;
       startTimer(data);

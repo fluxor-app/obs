@@ -1,0 +1,55 @@
+:root {
+    --background-color: #1d1f26;
+    --background-container: #272a33;
+    --button: #3c404d;
+    --button-hover: #464b59;
+    --nav: #3c404d;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.navbar {
+  color: #000;
+  background-color: var(--nav);
+  border-radius: 5px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.count-controller, .timer {
+  color: #ffffff;
+  background-color: var(--background-container);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.btn { 
+  color: rgb(255, 255, 255);
+  background-color: var(--button);
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--button);
+  cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--button-hover);
+    border: 1px solid gray;
+}
+
+.active-chk {
+  font-size: 12px;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
